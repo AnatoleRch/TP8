@@ -9,26 +9,10 @@ public class Salle {
 		this.intitule = intitule;
 		this.capacite = capacite;
 	}
-
-	@Override
-	public String toString() {
-		return "Salle{" + "intitule=" + intitule + ", capacite=" + capacite + '}';
-	}
-
 	public int getCapacite() {
 		return capacite;
 	}
-
-	public void setCapacite(int capacite) {
-		this.capacite = capacite;
-	}
-
 	public String getIntitule() {
 		return intitule;
 	}
-
-	public void setIntitule(String intitule) {
-		this.intitule = intitule;
-	}
-
 }

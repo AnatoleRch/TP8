@@ -24,51 +24,26 @@ public class Intervention {
         return duree;
     }
 
-    public void setDuree(int duree) {
-        this.duree = duree;
-    }
-
     public Date getDate() {
         return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
     }
 
     public Enseignant getIntervenant() {
         return intervenant;
     }
 
-    public void setIntervenant(Enseignant intervenant) {
-        this.intervenant = intervenant;
-    }
-
     public UE getMatiere() {
         return matiere;
     }
-
-    public void setMatiere(UE matiere) {
-        this.matiere = matiere;
-    }
-
 
     public TypeIntervention getType() {
         return type;
     }
 
-    public void setType(TypeIntervention type) {
-        this.type = type;
-    }
-
-
     public Salle getLieu() {
         return salle;
     }
 
-    public void setLieu(Salle salle) {
-        this.salle = salle;
-    }
 
 
 }

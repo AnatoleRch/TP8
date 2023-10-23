@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Enseignant bastide = new Enseignant("Rémi Bastide", "Remi.Bastide@irit.fr");
         Enseignant lamine  = new Enseignant("Elyes Lamine", "Elyes.Lamine@univ-jfc.fr");
-        
+
         UE uml = new UE("Conception par objets avec UML");
         UE bd  = new UE("Bases de données");
         UE web = new UE("Technologies web");
